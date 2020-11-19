@@ -1,0 +1,180 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: rgba(20,20,20,0);
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: #f9fffd; 
+    font-size: 40px;
+    font-weight: bold;
+    background-color: transparent;
+    text-align: center;
+
+}
+.navbar-brand h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    font-size: 50px;
+    background-color: transparent;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ebd122;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 22px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #02383a;
+    border-radius: 4px;
+    border:0px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    /** color: #24242400;
+    fill: #242424;
+    border-color: #fff;**/
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    text-align: left;
+    color: rgba(255, 255, 255);
+    background: rgba(255,255,255,0);
+    padding: 2%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    color: rgb(241, 248, 247);
+}
+
+/*** Buttons ***/
+
+
+.btn.btn-lg{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(228, 238, 235); 
+    background-color: rgba(20,20,20,.8);
+    border-width: 0px;  
+}
+
+.btn.btn-block {
+   background-color: rgba(20,20,20,.8);
+   border-width: 0px; 
+   font-family: "Montserrat", sans-serif;
+   font-size: 20px;
+}
+
+
+
+
+/*** CARD ***/
+
+.card {
+    background-color: rgba(0, 54, 43, 0);
+    border-color: #cccccc;
+    border-width: 0px;
+    width: 100%;
+    font-size: small;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.card:hover {
+    border-color: #003a35;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px
+}
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    color: #242424;
+    background-image: url("../assets/background.png");
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+.resume {
+    font-family: 'Verdana', sans-serif;
+    color: #242424;
+    background-color: #ffffff;
+    background-size: cover;
+    }
+    
+.blank{
+    padding: 2rem;
+    background-color: rgba(255,255,255,0);
+}
+
+.blank.small{
+    padding: 1rem;
+    background-color: rgba(255,255,255,0);
+}
+
+.contact{
+    color: rgba(255,255,255,1)
+}
+     
