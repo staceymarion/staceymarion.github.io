@@ -1,9 +1,17 @@
+
 /***** NAVBAR *****/
 
 .navbar {
     background-color: rgba(20,20,20,0);
     border-radius: 0;
+    flex-wrap:nowrap;
+    padding-left:50px;
+
 }
+.navbar-header {
+    flex-wrap:nowrap;
+}
+
 
 /* Navbar title */
 .navbar-default .navbar-brand {
@@ -16,7 +24,6 @@
 }
 .navbar-brand h2 {
     font-family: "Montserrat", sans-serif;
-    font-style: bold;
     font-size: 50px;
     background-color: transparent;
     text-align: center;
@@ -28,8 +35,11 @@
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ebd122;
-    text-decoration: none;
+    color: rgb(190, 241, 50);
+    text-decoration:none;
+}
+.navbar-default .navbar-brand:hover {
+    transform: scale(1.1);    
 }
 
 /* Navbar links */
@@ -38,7 +48,8 @@
     font-size: 22px;
     padding: 10px;
     text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.2em;
 }
 
 /* Navbar collapsed styles */
@@ -56,7 +67,7 @@
 
 .navbar-toggler:hover,
 .navbar-toggler:focus {
-    background-color: #ebd122;
+    background-color: rgb(190, 241, 50);
     /** color: #24242400;
     fill: #242424;
     border-color: #fff;**/
@@ -69,31 +80,109 @@
     text-align: left;
     color: rgba(255, 255, 255);
     background: rgba(255,255,255,0);
+    margin-left:30px;
     padding: 2%;
     border-radius: 0px;
 }
 
 .jumbotron h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
     font-size: 100px;
     color: rgb(241, 248, 247);
+    padding-top:60px;
 }
 
+.jumbotron h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    font-size: 100px;
+    color: rgb(241, 248, 247);
+    /*padding-top:60px;*/
+}
+
+/** text-center container */
+
+.col-md-4.home {
+    margin-left: -30px;
+    padding-left:0px;
+}
+
+.col-md-4.maps {
+    background-color:rgba(255, 255, 255, 0.603);
+}
+
+.container {
+    padding-left: 0px;
+}
+.text-center {
+    /*padding: 17.11px;*/
+    padding-top: 0px;
+    font-family: 'Raleway', sans-serif;
+    width:100%;
+
+}
 /*** Buttons ***/
 
 
 .btn.btn-lg{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(228, 238, 235); 
+    background-color: rgba(20, 20, 20, 0);
+    border-width: 0px;  
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.2em;
+
+}
+.btn.btn-lg:hover{
+    font-style: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(190, 241, 50); 
+    /*background-color: rgba(20, 20, 20, 0);*/
+    border-width: 0px;  
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.btn.btn-secondary{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(3, 22, 16); 
+    background-color: rgba(20, 20, 20, 0);
+    border-width: 0px;  
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em; 
+
+}
+/* .btn.btn-secondary:hover{
+    font-style: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(190, 241, 50); 
+    /*background-color: rgba(20, 20, 20, 0);
+    border-width: 0px;  
+    font-family: 'Montserrat', sans-serif;
+
+}  */
+
+/* .btn.btn-dark{
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     text-align: center;
-    margin-top: 20px;
-    color: rgb(228, 238, 235); 
-    background-color: rgba(20,20,20,.8);
+    margin-top: 10px;
+    color: rgb(133, 199, 26);
+    background-color: rgba(20, 20, 20, 0);
     border-width: 0px;  
-}
+} */
 
 .btn.btn-block {
-   background-color: rgba(20,20,20,.8);
+   /*color:greenyellow;*/
    border-width: 0px; 
    font-family: "Montserrat", sans-serif;
    font-size: 20px;
@@ -106,17 +195,24 @@
 
 .card {
     background-color: rgba(0, 54, 43, 0);
-    border-color: #cccccc;
-    border-width: 0px;
+    border-color: #cccccc00;
+    border-width: 10px;
     width: 100%;
     font-size: small;
-    margin-top: 10%;
-    margin-bottom: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .card:hover {
-    border-color: #003a35;
+    background-color: #ffffff;
 }
+
+.card-body {
+    padding:0px;
+}
+
+/* linked pages, centering larger images */
+
 
 /*** Basic Text Styles ***/
 
@@ -145,22 +241,40 @@ a {
 }
 
 a:hover {
-    color: #ebd122;
+    color: rgb(190, 241, 50);
 }
 
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #242424;
-    background-image: url("../assets/background.png");
+    /*background-image: url("../assets/sm_pnw_crop3.jpg");*/
     background-color: #cccccc;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     }
+
+    /* home page styling*/
+body.main {
+    background-image: url("../assets/sm_pnw_crop3.jpg");
+    height:1330px;
+    }
+
+body.soon {
+    background-image: url("../assets/IMG_1176-1.JPG"); 
+    height:1130px;
+    }
+
+body.maps {
+    background-image: url("../assets/IMG_7257.jpeg"); 
+    height:2500px;
+    }
+   
+    
 
 .resume {
     font-family: 'Verdana', sans-serif;
     color: #242424;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     background-size: cover;
     }
     
