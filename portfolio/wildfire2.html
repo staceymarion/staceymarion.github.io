@@ -11,57 +11,73 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-default">
-        <!-- Create the navbar -->  
-        <div class="container">
-            <div class="navbar">
-                <!-- Creates the navbar header -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-header" aria-expanded="false" aria-controls="navbar-header">
-                    <span class="sr-only">Toggle navigation</span>
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
-                    <span class="menu"> Menu</span>
-                </button> <!-- Hamburger button for smaller devices -->
-                <a class="navbar-brand" href="../index.html"> <!-- Your website brand name -->
-                    <h2 class="brand">  Stacey Marion</h2>
-                </a>
-            </div>
+<body class="maps long">
+    <div class="container-fluid">
+        <div class="row" style="height:60px;"> <!-- bumper row -->
+        </div>
+    <!-- ADD BACK NAV BAR -->
+        <nav class="navbar navbar-expand-lg navbar-default">
+            <!-- Create the navbar -->  
+            <div class="container-fluid">
+                <div class="navbar">
+                    <!-- Creates the navbar header -->
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-header" aria-expanded="false" aria-controls="navbar-header">
+                        <span class="sr-only">Toggle navigation</span>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
+                        <span class="menu"> Menu</span>
+                    </button> <!-- Hamburger button for smaller devices -->
+                    <a class="navbar-brand" href="/index.html"> <!-- Your website brand name -->
+                        <h2 class="brand">  Stacey Marion</h2>
+                    </a>
+                </div>
 
-            <div id="navbar-header" class="collapse navbar-collapse">
-                <!-- Links to include in navbar -->
-                <ul class="nav navbar-nav">
-                    <!-- Unordered list for links on navbar -->
-                    <li><a href="../about.html">About</a></li>
-                    <li><a href="../maps.html">Maps</a></li>
-                    <li><a href="../soon.html">Fire</a></li>
-                    <li><a href="../soon.html">Restoration</a></li>
-                    <li><a href="../soon.html">Endurance</a></li>
-                    <li><a href="../soon.html">Art</a></li>
-                </ul>
-            </div> <!-- end .navbar-collapse -->
-        </div> <!-- end .container -->
-    </nav> <!-- end navigation bar --> 
+                <div id="navbar-header" class="collapse navbar-collapse">
+                    <!-- Links to include in navbar -->
+                    <ul class="nav navbar-nav">
+                        <!-- Unordered list for links on navbar -->
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/soon.html">Fire</a></li>
+                        <li><a href="/soon.html">Restoration</a></li>
+                        <li><a href="/soon.html">Endurance</a></li>
+                        <li><a href="/soon.html">Art</a></li>
+                    </ul>
+                </div> <!-- end .navbar-collapse -->
+            </div> <!-- end .container -->
+        </nav> <!-- end navigation bar -->
+    </div>
+
+    <div class="jumbotron maps">
+		<div class="container">
+            <h3><a href="/maps.html">Maps</a></h3>
+        </div>
+    </div>
 
     <div class="resume">
     <div class="container">
         <div class="row">
-            <div class="col-md-10 col-md-offset-2 col-xs-10 col-xs-offset-1">
+            <div class="offset-md-1 col-md-10 offset-md-1">
                 <br>
                 <h2 class="portfolio-title">  Wildfire at the Backdoor <br> <br> </h2>
                 <p class="portfolio-description">
                     The Wildfire at the Backdoor storymap explores the human dimension of wildfire, particularly in the urbanized west coast. The storymap makes use of ESRI’s web mapping features, allowing for multiple map overlays that lead the viewer through the storymap’s narrative. The visual theme is meant to evoke a feeling of proximity to fire. The story begins with a recent scene from smoke-covered San Francisco, and throughout the story images of fires and firefighters bring the experience closer to the viewer. Fixed frame maps sequentially highlight different aspects of historical wildfires; historical perimeters, relative size, and ignition cause.  Sequential maps further incorporate related human factors, like population density, urban centers and housing development in the wildland-urban interface. Finally a bivariate maps and map overlays connect wildfire occurrence with fringe population areas, or wildland-urban interface areas where human ignitions are common.
                 </p> 
-            
+            </div>   
+            <div class="col-md-12"> 
                 <iframe src="https://storymaps.arcgis.com/stories/7fac33131f46426f971106aad960547d" width="100%" height="500px" frameborder="0" allow="geolocation"></iframe></a></li>
             
             
             </div>
+        </div>
+        <div class="row" style="height:60px;">
         </div>
 
     </div>

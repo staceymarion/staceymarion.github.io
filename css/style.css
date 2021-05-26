@@ -30,6 +30,14 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.navbar-brand.large {
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    background-color: transparent;
+    text-align: center;
+    color: transparent;
+}
+
 /* Navbar hover effects */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -75,6 +83,9 @@
 }
 
 /*** JUMBOTRON ***/
+a:link {
+    color: rgb(241, 248, 247);
+}
 
 .jumbotron {
     text-align: left;
@@ -82,6 +93,15 @@
     background: rgba(255,255,255,0);
     margin-left:30px;
     padding: 2%;
+    border-radius: 0px;
+}
+
+.jumbotron.maps {
+    text-align: left;
+    color: rgba(255, 255, 255);
+    background: rgba(255,255,255,0);
+    margin-left: 0px;
+    padding: 0px;
     border-radius: 0px;
 }
 
@@ -98,9 +118,30 @@
     font-weight:lighter;
     font-size: 100px;
     color: rgb(241, 248, 247);
+    padding:0px;
+}
+.jumbotron h3 a:link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    font-size: 100px;
+    color: rgb(241, 248, 247);
     /*padding-top:60px;*/
 }
-
+.jumbotron.maps h3 a:link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    font-size: 100px;
+    color: rgb(241, 248, 247);
+    /*padding-top:60px;*/
+}
+.jumbotron.maps h3 a:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    font-size: 100px;
+    color: rgb(190, 241, 50); 
+    text-decoration: none;
+    /*padding-top:60px;*/
+}
 /** text-center container */
 
 .col-md-4.home {
@@ -122,6 +163,13 @@
     width:100%;
 
 }
+
+.col-md-6.resume {
+    padding-top:90px;
+    margin-left:0px;
+}
+
+
 /*** Buttons ***/
 
 
@@ -203,7 +251,11 @@
     margin-bottom: 5%;
 }
 
-.card:hover {
+.card.cirle:hover {
+    text-decoration:none;
+}
+
+.card.maps:hover {
     background-color: #ffffff;
 }
 
@@ -220,8 +272,17 @@
     max-height: 200px;
 }
 
+.resume h2 {
+    font-family: "Montserrat", sans-serif;
+}
 .resume h3 {
     font-weight: bold;
+}
+
+.resume p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: justify;
 }
 
 h4 {
@@ -237,7 +298,7 @@ p {
 }
 
 a {
-    color: #863ee3;
+    color: rgb(241, 248, 247);
 }
 
 a:hover {
@@ -264,12 +325,24 @@ body.soon {
     height:1130px;
     }
 
+body.contact {
+    background-image: url("../assets/IMG_1176-1.JPG"); 
+    height:1200px;
+    }
+
 body.maps {
     background-image: url("../assets/IMG_7257.jpeg"); 
     height:2500px;
     }
    
-    
+body.maps.long {
+    height:max-content;
+}    
+
+body.about {
+    background-image: url("../assets/IMG_0678.jpg"); 
+    height:1100px;
+    }
 
 .resume {
     font-family: 'Verdana', sans-serif;
