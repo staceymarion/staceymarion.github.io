@@ -321,12 +321,12 @@ body.main {
     }
 
 body.soon {
-    background-image: url("../assets/IMG_1176-1.JPG"); 
+    background-image: url("../assets/IMG_1176-1.jpg"); 
     height:1130px;
     }
 
 body.contact {
-    background-image: url("../assets/IMG_1176-1.JPG"); 
+    background-image: url("../assets/IMG_1176-1.jpg"); 
     height:1200px;
     }
 
@@ -340,7 +340,7 @@ body.maps.long {
 }    
 
 body.about {
-    background-image: url("../assets/IMG_0678.jpg"); 
+    background-image: url("../assets/IMG_0678.JPG"); 
     height:1100px;
     }
 
