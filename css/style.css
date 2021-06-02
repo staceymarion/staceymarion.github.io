@@ -344,6 +344,11 @@ body.about {
     height:1100px;
     }
 
+body.fire {
+    background-image: url("../assets/IMG_4507.JPG"); 
+    height:1600px;
+    }
+
 .resume {
     font-family: 'Verdana', sans-serif;
     color: #242424;
@@ -365,3 +370,6 @@ body.about {
     color: rgba(255,255,255,1)
 }
      
+div.row.fire {
+    color:white;
+}
