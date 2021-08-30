@@ -153,6 +153,15 @@ a:link {
     background-color:rgba(255, 255, 255, 0.603);
 }
 
+.col-md-6.home {
+    margin-left: -30px;
+    padding-left:0px;
+}
+
+.col-md-6.maps {
+    background-color:rgba(255, 255, 255, 0.603);
+}
+
 .container {
     padding-left: 0px;
 }
@@ -166,6 +175,11 @@ a:link {
 
 .col-md-6.resume {
     padding-top:90px;
+    margin-left:0px;
+}
+
+.col-md-6.run {
+    padding-top:0px;
     margin-left:0px;
 }
 
@@ -298,7 +312,7 @@ p {
 }
 
 a {
-    color: rgb(241, 248, 247);
+    color: rgb(190, 252, 243); /* rgb(241, 248, 247) */
 }
 
 a:hover {
@@ -343,6 +357,12 @@ body.about {
     background-image: url("../assets/IMG_0678.JPG"); 
     height:1100px;
     }
+
+body.run {
+        background-image: url("../assets/IMG_0141-1.png"); 
+        height:1900px;
+        /*width: 100%;*/
+}
 
 body.fire {
     background-image: url("../assets/IMG_4507.JPG"); 
