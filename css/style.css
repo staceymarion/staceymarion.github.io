@@ -174,7 +174,7 @@ a:link {
 }
 
 .col-md-6.resume {
-    padding-top:90px;
+    padding-top:0px;
     margin-left:0px;
 }
 
@@ -183,6 +183,13 @@ a:link {
     margin-left:0px;
 }
 
+.col-md-10.maps {
+    background-color:rgba(255, 255, 255, 0.603);
+}
+
+.col-md-7.resume {
+    background-color:rgba(255, 255, 255, 0.801);
+}
 
 /*** Buttons ***/
 
@@ -190,7 +197,7 @@ a:link {
 .btn.btn-lg{
     font-size: 30px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     color: rgb(228, 238, 235); 
     background-color: rgba(20, 20, 20, 0);
     border-width: 0px;  
@@ -254,7 +261,12 @@ a:link {
 
 
 /*** CARD ***/
-
+.shrink {
+    width:80%;
+    left:0;
+    right:0;
+    margin:auto;
+}
 .card {
     background-color: rgba(0, 54, 43, 0);
     border-color: #cccccc00;
@@ -299,6 +311,23 @@ a:link {
     text-align: justify;
 }
 
+.resume li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin-top:1%;
+}
+.resume li:before {
+    content:"- ";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.resume ul {
+    list-style-type:none;
+}
+
 h4 {
     font-size: 20px
 }
@@ -331,7 +360,7 @@ body {
     /* home page styling*/
 body.main {
     background-image: url("../assets/sm_pnw_crop3.jpg");
-    height:1330px;
+    height:900px;
     }
 
 body.soon {
@@ -365,10 +394,23 @@ body.run {
 }
 
 body.fire {
-    background-image: url("../assets/IMG_4507.JPG"); 
+    /*background-image: url("../assets/IMG_4507.JPG");*/ 
+    background-image: url("../assets/IMG_0410.jpeg"); 
+    /*background-color: rgba(255,255,255,0);*/
     height:2400px;
     }
 
+body.art {
+    background-image: url("../assets/IMG_7815.jpg");
+    background-size:cover;
+    }
+
+body.restore {
+    background-image: url("../assets/knee\ deep.png"); 
+    background-size:cover;
+}
+   
+        
 .resume {
     font-family: 'Verdana', sans-serif;
     color: #242424;
