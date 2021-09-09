@@ -178,6 +178,11 @@ a:link {
     margin-left:0px;
 }
 
+.col-md-7.resume {
+    padding-top:0px;
+    margin-left:0px;
+}
+
 .col-md-6.run {
     padding-top:0px;
     margin-left:0px;
@@ -187,7 +192,7 @@ a:link {
     background-color:rgba(255, 255, 255, 0.603);
 }
 
-.col-md-7.resume {
+.col-md-7.restore {
     background-color:rgba(255, 255, 255, 0.801);
 }
 
@@ -273,7 +278,7 @@ a:link {
     border-width: 10px;
     width: 100%;
     font-size: small;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-bottom: 5%;
 }
 
@@ -375,7 +380,7 @@ body.contact {
 
 body.maps {
     background-image: url("../assets/IMG_7257.jpeg"); 
-    height:2500px;
+    height:2600px;
     }
    
 body.maps.long {
@@ -388,8 +393,8 @@ body.about {
     }
 
 body.run {
-        background-image: url("../assets/IMG_0141-1.png"); 
-        height:1900px;
+        background-image: url("../assets/jump-3.png");  /*../assets/IMG_0141-1.png"*/
+        height:1800px;
         /*width: 100%;*/
 }
 
