@@ -186,6 +186,7 @@ a:link {
 .col-md-6.run {
     padding-top:0px;
     margin-left:0px;
+    background-color:rgba(5, 5, 5, 0.7);
 }
 
 .col-md-10.maps {
@@ -381,6 +382,7 @@ body.contact {
 body.maps {
     background-image: url("../assets/IMG_7257.jpeg"); 
     height:2600px;
+    backdrop-filter: blur(10px);
     }
    
 body.maps.long {
@@ -393,22 +395,30 @@ body.about {
     }
 
 body.run {
-        background-image: url("../assets/jump-3.png");  /*../assets/IMG_0141-1.png"*/
-        height:1800px;
-        /*width: 100%;*/
+        background-image: url("../assets/DSC07990_01.jpg");  /*../assets/IMG_0141-1.png"*/
+        height:100%;
+        /*width: 100%; heihgt: 1800px*/
 }
 
 body.fire {
     /*background-image: url("../assets/IMG_4507.JPG");*/ 
     /*background-image: url("../assets/IMG_0410.jpeg");*/
-    background-image: url("../assets/IMG_0410.jpeg");
+    /* background-image: url("../assets/IMG_0410.jpeg"); */
     /*background-color: rgba(255,255,255,0);*/
-    height:2400px;
+    /* height:2400px; */
+    background-image: url("../assets/IMG_0410.jpeg");
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
     }
 
 body.art {
     background-image: url("../assets/IMG_7815.jpg");
     background-size:cover;
+    backdrop-filter: blur(5px);
     }
 
 body.restore {
